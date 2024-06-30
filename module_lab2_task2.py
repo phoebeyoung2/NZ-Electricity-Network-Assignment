@@ -102,7 +102,7 @@ class Network(object):
         # if node not found, return None
         return None
 
-    # **these methods are incomplete, you must complete them as part of the assignment task**
+    
     def add_node(self, name, value=None):
         """
         Adds a new node object to the network
@@ -182,7 +182,7 @@ class Network(object):
                         # Create arc object
                         self.add_arc(self.get_node(origin_node), self.get_node(inbound_node_name), arc_weight)
 
-
+# This class was written by my lecturer to assist us with our assignment.
 class NetworkElectricNZ(Network):
     """
     Inherited from the Network class. Used to represent the NZ electricity network.
